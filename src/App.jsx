@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <ExpensesChart />
-      <Attributions name="Brandon Aray" url="" />
+      <Attributions
+        name="Brandon Aray"
+        url="https://www.frontendmentor.io/profile/branalex94"
+      />
     </div>
   );
 }
