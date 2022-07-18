@@ -87,6 +87,18 @@ button {
   cursor: pointer;
   opacity: 0.7;
 }
+.bar .bar__price-overlay {
+  opacity: 0;
+  background-color: hsl(25deg, 47%, 15%);
+  font-size: 0.7rem;
+  color: hsl(33deg, 100%, 98%);
+  padding: 0 0.3rem;
+  border-radius: 5px;
+  transition: opacity 0.5s ease;
+}
+.bar .bar__price-overlay.bar__price-overlay--active {
+  opacity: 1;
+}
 
 .chart__footer {
   display: flex;

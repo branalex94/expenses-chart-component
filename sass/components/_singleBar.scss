@@ -18,4 +18,16 @@
       opacity: 0.7;
     }
   }
+  .bar__price-overlay {
+    opacity: 0;
+    background-color: $DarkBrown;
+    font-size: 0.7rem;
+    color: $VeryPaleOrange;
+    padding: 0 0.3rem;
+    border-radius: 5px;
+    transition: opacity 0.5s ease;
+    &.bar__price-overlay--active {
+      opacity: 1;
+    }
+  }
 }
