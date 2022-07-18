@@ -1,0 +1,16 @@
+.bar {
+  flex: 1;
+  gap: 0.5rem;
+  .bar__day {
+    font-size: 0.8rem;
+    color: $MediumBrown;
+  }
+  .bar__amount {
+    background: $SoftRed;
+    width: 100%;
+    border-radius: 2.5px;
+    &.active {
+      background-color: $Cyan;
+    }
+  }
+}

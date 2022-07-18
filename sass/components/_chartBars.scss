@@ -1,0 +1,27 @@
+.charts__container {
+  background-color: $VeryPaleOrange;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  h2 {
+    margin-top: 0;
+  }
+  hr {
+    border-color: $VeryPaleOrange;
+    margin: 1rem 0;
+  }
+  .bars__container {
+    display: flex;
+    height: 12rem;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 1rem;
+    div {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      height: 100%;
+      align-items: center;
+    }
+  }
+}

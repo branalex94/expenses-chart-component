@@ -1,0 +1,10 @@
+.chart__wrapper {
+  margin: 3rem 0.5rem;
+  min-width: 90vw;
+}
+
+@media (min-width: 1024px) {
+  .chart__wrapper {
+    min-width: 25rem;
+  }
+}
