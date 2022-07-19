@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/branalex94/expenses-chart-component](https://github.com/branalex94/expenses-chart-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://branalex94.github.io/expenses-chart-component/](https://branalex94.github.io/expenses-chart-component/)
 
 ## My process
 
